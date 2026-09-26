@@ -11,8 +11,10 @@ export default defineConfig(() => {
       },
     },
     server: {
-      port: 3000,
+      port: 5000,
       host: '0.0.0.0',
+      allowedHosts: true as const,
+      strictPort: true,
       // HMR can be disabled in constrained preview environments.
       // File watching can be disabled in constrained preview environments.
       hmr: process.env.DISABLE_HMR !== 'true',

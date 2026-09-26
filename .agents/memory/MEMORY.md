@@ -1,0 +1,1 @@
+- [Imported native dependencies](imported-native-dependencies.md) — copied dependency folders may contain binaries for the uploader’s OS; reinstall from the lockfile on Replit.
